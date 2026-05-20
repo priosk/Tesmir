@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDevelopmentRegion</key><string>$(DEVELOPMENT_LANGUAGE)</string>
+    <key>CFBundleDisplayName</key><string>Tesmir</string>
+    <key>CFBundleExecutable</key><string>$(EXECUTABLE_NAME)</string>
+    <key>CFBundleIdentifier</key><string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+    <key>CFBundleInfoDictionaryVersion</key><string>6.0</string>
+    <key>CFBundleName</key><string>$(PRODUCT_NAME)</string>
+    <key>CFBundlePackageType</key><string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+    <key>CFBundleShortVersionString</key><string>1.0.0</string>
+    <key>CFBundleVersion</key><string>1</string>
+    <key>NSCameraUsageDescription</key><string>Tesmir은 화면 미러링을 위해 화면 녹화 권한이 필요합니다.</string>
+    <key>NSMicrophoneUsageDescription</key><string>Tesmir은 화면 녹화 중 마이크 접근이 요청될 수 있습니다. 오디오는 스트리밍되지 않습니다.</string>
+    <key>NSLocalNetworkUsageDescription</key><string>Tesmir은 iPhone 핫스팟을 통해 Tesla 브라우저로 화면을 스트리밍합니다.</string>
+    <key>NSBonjourServices</key><array><string>_tesmir._tcp</string><string>_http._tcp</string></array>
+    <key>NSMotionUsageDescription</key><string>Tesmir 안전 운전 모드는 주행 감지를 위해 동작 센서를 사용합니다.</string>
+    <key>UIBackgroundModes</key><array><string>audio</string></array>
+    <key>NSAppTransportSecurity</key><dict><key>NSAllowsLocalNetworking</key><true/><key>NSAllowsArbitraryLoads</key><false/></dict>
+    <key>UILaunchScreen</key><dict><key>UIColorName</key><string>AccentColor</string></dict>
+    <key>UIRequiresFullScreen</key><true/>
+    <key>UIStatusBarStyle</key><string>UIStatusBarStyleDefault</string>
+    <key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>
+    <key>MinimumOSVersion</key><string>16.0</string>
+    <key>LSRequiresIPhoneOS</key><true/>
+</dict>
+</plist>
