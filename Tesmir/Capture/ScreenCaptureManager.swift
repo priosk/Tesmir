@@ -28,7 +28,7 @@ enum QualityPreset: String, CaseIterable {
     }
 }
 
-class ScreenCaptureManager: ObservableObject {
+class ScreenCaptureManager: ObservableObject, @unchecked Sendable {
     @Published var isCapturing: Bool = false
     @Published var latestFrameData: Data? = nil
     @Published var captureError: Error? = nil

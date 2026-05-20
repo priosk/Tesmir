@@ -17,12 +17,17 @@
     <key>NSBonjourServices</key><array><string>_tesmir._tcp</string><string>_http._tcp</string></array>
     <key>NSMotionUsageDescription</key><string>Tesmir 안전 운전 모드는 주행 감지를 위해 동작 센서를 사용합니다.</string>
     <key>UIBackgroundModes</key><array><string>audio</string></array>
-    <key>NSAppTransportSecurity</key><dict><key>NSAllowsLocalNetworking</key><true/><key>NSAllowsArbitraryLoads</key><false/></dict>
-    <key>UILaunchScreen</key><dict><key>UIColorName</key><string>AccentColor</string></dict>
-    <key>UIRequiresFullScreen</key><true/>
+    <key>NSAppTransportSecurity</key><dict>
+        <key>NSAllowsLocalNetworking</key><true/>
+        <key>NSAllowsArbitraryLoads</key><false/>
+    </dict>
+    <key>UILaunchScreen</key><dict/>
     <key>UIStatusBarStyle</key><string>UIStatusBarStyleDefault</string>
-    <key>UISupportedInterfaceOrientations</key><array><string>UIInterfaceOrientationPortrait</string><string>UIInterfaceOrientationLandscapeLeft</string><string>UIInterfaceOrientationLandscapeRight</string></array>
-    <key>MinimumOSVersion</key><string>16.0</string>
+    <key>UISupportedInterfaceOrientations</key><array>
+        <string>UIInterfaceOrientationPortrait</string>
+        <string>UIInterfaceOrientationLandscapeLeft</string>
+        <string>UIInterfaceOrientationLandscapeRight</string>
+    </array>
     <key>LSRequiresIPhoneOS</key><true/>
 </dict>
 </plist>
